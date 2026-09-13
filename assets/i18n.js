@@ -12,6 +12,7 @@
     'projets.html':'en/projects.html',
     'a-propos.html':'en/about.html',
     'contact.html':'en/contact.html',
+    'catherine.html':'en/catherine.html',
     'articles/ia-assistantes-direction.html':'en/articles/ai-executive-assistants.html',
     'articles/automatiser-sans-deshumaniser.html':'en/articles/automate-without-dehumanising.html'
   };
