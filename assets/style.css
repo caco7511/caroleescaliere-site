@@ -16,3 +16,9 @@
 @media(min-width:1350px){.home-hero{min-height:600px}}
 @media(max-width:850px){.home-header{padding:18px 22px}.home-header nav{gap:18px}.home-hero{min-height:510px;margin:0 16px 28px;padding:66px 36px}.home-hero-content{max-width:560px}.home-hero h1{font-size:clamp(2.9rem,7vw,4.6rem)}}
 @media(max-width:700px){.home-header{padding:16px 20px}.home-header .brand{font-size:1.35rem}.home-header nav{gap:16px}.home-hero{min-height:510px;margin:0 12px 24px;padding:45px 26px;border-radius:8px}.home-hero h1{font-size:clamp(2.7rem,10.5vw,4.1rem);line-height:1.08}.home-hero .lead{font-size:1.05rem}.home-hero-button{margin-top:26px}.desktop-only{display:none}.home-hero-visual{background:linear-gradient(180deg,rgba(249,247,243,.96) 0%,rgba(248,246,242,.88) 65%,rgba(212,217,215,.75) 100%),linear-gradient(135deg,#f2eee9,#b7c0c0)}}
+
+
+/* Portrait de Carole : fichier assets/portrait-carole-accueil.webp à déposer dans le dépôt. */
+.home-hero-visual{background-image:linear-gradient(90deg,#f7f5f1 0%,rgba(247,245,241,.98) 33%,rgba(247,245,241,.76) 50%,rgba(247,245,241,.04) 75%),url("portrait-carole-accueil.webp");background-size:cover,auto 118%;background-repeat:no-repeat;background-position:center,right 18% center}
+@media(max-width:850px){.home-hero-visual{background-image:linear-gradient(90deg,#f7f5f1 0%,rgba(247,245,241,.96) 38%,rgba(247,245,241,.60) 70%),url("portrait-carole-accueil.webp");background-size:cover,auto 100%;background-position:center,right center}}
+@media(max-width:700px){.home-hero{min-height:620px}.home-hero-visual{background-image:linear-gradient(180deg,#f7f5f1 0%,rgba(247,245,241,.97) 36%,rgba(247,245,241,.1) 72%),url("portrait-carole-accueil.webp");background-size:cover,auto 68%;background-position:center,right bottom}}
